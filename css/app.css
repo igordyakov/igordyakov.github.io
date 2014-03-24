@@ -63,7 +63,6 @@ body {
 }
 
 .cover-container {
-  margin-right: auto;
   margin-left: 50%;
   margin-right: 3%;
 }
@@ -107,4 +106,9 @@ list-style-type: disc;
   .cover-container {
     width: 700px;
   }
+  
+  .cover-container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
 }
