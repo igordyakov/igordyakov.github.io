@@ -101,12 +101,12 @@ list-style-type: disc;
 -webkit-padding-start: 0px;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 768px) {
   .mastfoot,
   .cover-container {
     width: 700px;
   }
-  
+
   .cover-container {
   margin-left: 3%;
   margin-right: 3%;
