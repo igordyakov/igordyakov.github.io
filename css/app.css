@@ -8,13 +8,13 @@ a:hover {
 /* Fonts */
 
 .cover-heading {
-	font-family: "proxima-nova", arial, sans-serif;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 24px;
 }
 
 .lead {
-	font-family: "proxima-nova", sans-serif;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 }
 
