@@ -101,7 +101,7 @@ list-style-type: disc;
 -webkit-padding-start: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   .mastfoot,
   .cover-container {
     width: 700px;
