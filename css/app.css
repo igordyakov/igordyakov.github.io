@@ -46,6 +46,7 @@ body {
   overflow: hidden;
   color: #fff;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-width: 800px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
