@@ -47,6 +47,7 @@ body {
   overflow: hidden;
   color: #fff;
   font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
