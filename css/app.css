@@ -8,16 +8,12 @@ a:hover {
 /* Fonts */
 
 .cover-heading {
+	font-weight: 100;
 	font-size: 62px;
-  font-family: "pragmatica-web-n2", "pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 200;
 }
 
 .lead {
 	font-size: 22px;
-  font-family: "pragmatica-web-n2", "pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: normal;
   font-weight: 200;
 }
 
@@ -50,8 +46,8 @@ body {
   background-size: cover;
   overflow: hidden;
   color: #fff;
-  /*font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: normal;*/
+  font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
 
