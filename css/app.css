@@ -50,8 +50,8 @@ body {
   background-size: cover;
   overflow: hidden;
   color: #fff;
-  font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: normal;
+  /*font-family: "pragmatica-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;*/
   -webkit-font-smoothing: antialiased;
 }
 
