@@ -107,7 +107,7 @@ body {
 
 .cover {
     height: 100%;
-    background: #000;
+    background: #333;
     background: url('http://igordyakov.com/img/photobyigorguriev.jpg') no-repeat right center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -131,7 +131,7 @@ body {
 }
 
 .covercopy-container {
-    margin-left: 50%;
+    margin-left: 47%;
     margin-right: 3%;
 }
 
@@ -139,9 +139,7 @@ body {
     padding: 30px 0px 30px 0px; 
 }
 
-.covernav-inner {
-    padding: 30px 0px 30px 0px; 
-}
+
 
 .cover-nav {
     position: fixed;
@@ -157,6 +155,10 @@ body {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0px;
+}
+
+.covernav-inner {
+    padding: 30px 0px 30px 0px; 
 }
 
 .cover-nav li {
@@ -180,27 +182,23 @@ body {
     font-weight: 100;
     font-size: 60px;
     margin: 0;
-    letter-spacing:-5px
+    letter-spacing:-4px
 }
 
 .cover h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     margin: 0;
 }
 
 .cover p {
     font-weight: 400;
-    font-size: 18px;
-}
-
-.cover a .button {
-
+    font-size: 20px;
 }
 
 .cover-nav li a {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
@@ -329,7 +327,6 @@ body {
 
 @media (max-width: 400px) {
   .cover {
-    overflow: scroll;
   }
 
   .cover-nav,
@@ -360,13 +357,10 @@ body {
     font-size: 16px;
 }
 
-.cover a .button {
-
-}
-
 .cover-nav li a {
     font-weight: 400;
     font-size: 16px;
+}
 }
 
 @media (max-width: 320px) {
@@ -374,8 +368,9 @@ body {
 .covercopy-wrapper-inner {
     vertical-align: top;
 }
+}
 
-@media (max-height: 321px) {
+@media (max-height: 320px) {
     
 .cover h1 {
     font-weight: 200;
@@ -403,7 +398,6 @@ body {
     font-weight: 400;
     font-size: 12px;
 }
-
 }
 
 
