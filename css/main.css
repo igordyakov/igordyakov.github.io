@@ -131,8 +131,8 @@ body {
 }
 
 .covercopy-container {
-    margin-left: 47%;
-    margin-right: 3%;
+    margin-left: 50%;
+    margin-right: 5%;
 }
 
 .covercopy-inner {
@@ -328,9 +328,6 @@ body {
 
 
 @media (max-width: 400px) and (orientation: portrait) {
-  .cover {
-  }
-
   .cover-nav,
   .cover-container {
     width: 86%;
@@ -370,6 +367,7 @@ body {
 .covercopy-container {
     margin-left: 40%;
     margin-right: 5%;
+    width: 360px;
 }
 
 .cover h1 {
