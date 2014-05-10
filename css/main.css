@@ -365,7 +365,7 @@ body {
 }
 }
 
-@media (max-width: 400px) and (orientation: landscape) {
+@media (max-height: 320px) and (orientation: landscape) {
   
 .covercopy-container {
     margin-left: 47%;
