@@ -360,14 +360,14 @@ body {
 }
 
 .cover h2 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin: 0;
 }
 
 .cover p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .cover a .button {
@@ -376,7 +376,7 @@ body {
 
 .cover-nav li a {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 @media print,
