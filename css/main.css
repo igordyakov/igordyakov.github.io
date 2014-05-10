@@ -312,7 +312,7 @@ body {
    Modify as content requires.
    ========================================================================== */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .cover-nav,
   .covercopy-container {
     width: 86%;
@@ -325,7 +325,9 @@ body {
 }
 
 
-@media (max-width: 400px) {
+
+
+@media (max-width: 400px) and (orientation: portrait) {
   .cover {
   }
 
@@ -363,15 +365,13 @@ body {
 }
 }
 
-@media (max-width: 320px) {
-    
-.covercopy-wrapper-inner {
-    vertical-align: top;
-}
+@media (max-width: 400px) and (orientation: landscape) {
+  
+.covercopy-container {
+    margin-left: 47%;
+    margin-right: 3%;
 }
 
-@media (max-height: 320px) {
-    
 .cover h1 {
     font-weight: 200;
     font-size: 28px;
@@ -399,6 +399,14 @@ body {
     font-size: 12px;
 }
 }
+
+@media (max-width: 320px) {
+    
+.covercopy-wrapper-inner {
+    vertical-align: top;
+}
+}
+
 
 
 @media print,
