@@ -367,6 +367,11 @@ body {
 
 @media (max-height: 320px) and (orientation: landscape) {
   
+.cover-nav,
+  .cover-container {
+    width: 86%;
+  }
+
 .covercopy-container {
     margin-left: 47%;
     margin-right: 3%;
