@@ -310,17 +310,31 @@ body {
    Modify as content requires.
    ========================================================================== */
 
+@media (max-width: 800px) {
+  .cover-nav,
+  .covercopy-container {
+    width: 100%;
+  }
+
+  .covercopy-container {
+  margin-left: 38%;
+  margin-right: 3%;
+}
+
+
+
+
 @media (max-width: 640px) {
   .cover-nav,
   .covercopy-container {
-    width: 86%;
+    width: 100%;
   }
 
   .covercopy-container {
   margin-left: 10%;
   margin-right: 3%;
 }
-}
+
 
 
 @media (max-width: 400px) {
@@ -330,7 +344,7 @@ body {
 
   .cover-nav,
   .cover-container {
-    width: 86%;
+    width: 100%;
   }
 
   .covercopy-container  {
