@@ -338,6 +338,33 @@ body {
   margin-right: 3%;
 }
 
+.cover h1 {
+    font-weight: 100;
+    font-size: 32px;
+    margin: 0;
+    letter-spacing:-2px
+}
+
+.cover h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.cover p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cover a .button {
+
+}
+
+.cover-nav li a {
+    font-weight: 400;
+    font-size: 14px;
+}
+
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
