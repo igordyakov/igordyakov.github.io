@@ -170,32 +170,6 @@ body {
     text-decoration: underline;
 }
 
-
-/* TYPOGRAPHY 
-
-.cover h1 {
-    font-family: "proxima-nova-n1", sans-serif;
-    font-size: 44px;
-}
-
-.cover h2 {
-    font-family: "proxima-nova-n3", sans-serif;
-}
-
-.cover p {
-    font-family: "proxima-nova-n4", sans-serif;
-}
-
-.cover a .button {
-
-}
-
-.cover-nav li a {
-    font-family: "proxima-nova-n3", sans-serif;
-    font-size: 18px;
-}
-*/
-
 /* TYPOGRAPHY */
 
 .cover h1 {
@@ -206,10 +180,9 @@ body {
 }
 
 .cover h2 {
-    font-size: 26px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
     margin: 0;
-    letter-spacing:-1px
 }
 
 .cover p {
@@ -351,6 +324,10 @@ body {
 
 
 @media (max-width: 400px) {
+  .cover {
+    overflow: scroll;
+  }
+
   .cover-nav,
   .cover-container {
     width: 86%;
