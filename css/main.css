@@ -312,7 +312,7 @@ body {
    Modify as content requires.
    ========================================================================== */
 
-@media (max-width: 769px) {
+@media (max-width: 767px) {
   .cover-nav,
   .covercopy-container {
     width: 86%;
