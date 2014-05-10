@@ -340,7 +340,7 @@ body {
 @media (max-width: 768px) {
   .cover-nav,
   .covercopy-container {
-    width: 700px;
+    width: 86%;
   }
 
   .covercopy-container {
@@ -353,7 +353,7 @@ body {
 @media (max-width: 400px) {
   .cover-nav,
   .cover-container {
-    width: 700px;
+    width: 86%;
   }
 
   .covercopy-container  {
