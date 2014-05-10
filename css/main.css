@@ -171,7 +171,7 @@ body {
 }
 
 
-/* TYPOGRAPHY */
+/* TYPOGRAPHY 
 
 .cover h1 {
     font-family: "proxima-nova-n1", sans-serif;
@@ -194,6 +194,35 @@ body {
     font-family: "proxima-nova-n3", sans-serif;
     font-size: 18px;
 }
+*/
+
+/* TYPOGRAPHY */
+
+.cover h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.cover h2 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.cover p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cover a .button {
+
+}
+
+.cover-nav li a {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+
 
 
 
